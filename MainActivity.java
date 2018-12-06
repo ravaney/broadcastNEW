@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent();
         intent.setAction("com.example.lewis.broadcast");
         sendBroadcast(intent);
-        //  LocalBroadcastManager.getInstance(this).sendBroadcast(intent);
+        // / LocalBroadcastManager.getInstance(this).sendBroadcast(intent);
     }
 
 
